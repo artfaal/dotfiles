@@ -1,0 +1,5 @@
+pane	0	0	:sudo	1	:*	0	:/etc/openvpn	0	bash	:
+pane	0	0	:sudo	1	:*	1	:/etc/openvpn	1	bash	:
+pane	0	0	:sudo	1	:*	2	:/run/systemd	0	bash	:
+window	0	0	1	:*	a2b9,190x55,0,0[190x27,0,0{95x27,0,0,1,94x27,96,0,2},190x27,0,28,3]
+state	0	

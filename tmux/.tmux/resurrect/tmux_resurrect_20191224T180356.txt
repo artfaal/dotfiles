@@ -1,0 +1,5 @@
+pane	0	0	:bash	1	:*	0	:/tmp/arm-kd	1	bash	:
+pane	0	1	:isurzik	0	:-	0	:/home/m-solovyev	1	ssh	:ssh jet@sentry-app-01.egron.fkp
+window	0	0	1	:*	c55e,211x56,0,0,1
+window	0	1	0	:-	c560,211x56,0,0,3
+state	0	

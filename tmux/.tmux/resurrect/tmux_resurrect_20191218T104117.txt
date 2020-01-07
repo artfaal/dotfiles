@@ -1,0 +1,23 @@
+pane	0	0	:bash	0	:-	0	:/home/m-solovyev	1	bash	:
+pane	0	0	:bash	0	:-	1	:/home/m-solovyev/deploy/ANSIBLE	0	bash	:
+pane	0	1	:deva	1	:*	0	:/home/m-solovyev	0	bash	:
+pane	0	1	:deva	1	:*	1	:/home/m-solovyev/deploy/ANSIBLE/tmp/FKP	1	python2	:/usr/bin/python2 /usr/bin/ansible all -i /home/m-solovyev/deploy/ANSIBLE/tmp/FKP/_fkp -m ping
+pane	0	2	:fkp-arm-kd	0	:	0	:/home/m-solovyev	0	ssh	:ssh jet@popd-workstation-01.egron.fkp
+pane	0	2	:fkp-arm-kd	0	:	1	:/home/m-solovyev	0	ssh	:ssh jet@popd-workstation-01.egron.fkp
+pane	0	2	:fkp-arm-kd	0	:	2	:/home/m-solovyev	1	ssh	:ssh jet@popd-workstation-02.egron.fkp
+pane	0	2	:fkp-arm-kd	0	:	3	:/home/m-solovyev	0	ssh	:ssh jet@popd-workstation-02.egron.fkp
+pane	0	3	:jenkins	0	:	0	:/home/m-solovyev	1	ssh	:ssh root@cvm100.lpr.jet.msk.su
+pane	0	4	:ssh	0	:	0	:/home/m-solovyev	1	ssh	:ssh jet@ppoz-db-request-01.egron.fkp
+pane	0	5	:isurz-api	0	:	0	:/home/m-solovyev	1	ssh	:ssh jet@isurz-api-01.egron.fkp
+pane	0	6	:ssh	0	:	0	:/home/m-solovyev	0	ssh	:ssh learning@pg-bouncer-popd.stage.egrn
+pane	0	6	:ssh	0	:	1	:/home/m-solovyev	1	ssh	:ssh jet@pg-bouncer-popd.egron.fkp
+pane	0	7	:ssh	0	:	0	:/home/m-solovyev	1	ssh	:ssh learning@popd-workstation-01.stage.egrn
+window	0	0	0	:-	8e3d,238x64,0,0[238x32,0,0,13,238x31,0,33,14]
+window	0	1	1	:*	1d11,238x64,0,0[238x32,0,0,2,238x31,0,33,18]
+window	0	2	0	:	b9c2,238x64,0,0[238x33,0,0{119x33,0,0,3,118x33,120,0,21},238x30,0,34{119x30,0,34,16,118x30,120,34,22}]
+window	0	3	0	:	61e4,238x64,0,0,15
+window	0	4	0	:	62e6,211x56,0,0,17
+window	0	5	0	:	61e8,238x64,0,0,19
+window	0	6	0	:	4e3e,238x64,0,0[238x32,0,0,23,238x31,0,33,24]
+window	0	7	0	:	e1e4,238x64,0,0,25
+state	0	

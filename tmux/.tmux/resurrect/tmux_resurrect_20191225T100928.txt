@@ -1,0 +1,6 @@
+pane	0	0	:bash	0	:-	0	:/home/m-solovyev	1	bash	:
+pane	0	1	:isurzik	1	:*	0	:/home/m-solovyev/deploy/ANSIBLE/tmp/FKP	0	python2	:/usr/bin/python2 /usr/bin/ansible all -i /home/m-solovyev/deploy/ANSIBLE/tmp/FKP/_fkp -f 1 -m ping
+pane	0	1	:isurzik	1	:*	1	:/home/m-solovyev	1	bash	:
+window	0	0	0	:-	c55d,211x56,0,0,0
+window	0	1	1	:*	120e,211x56,0,0[211x28,0,0,1,211x27,0,29,4]
+state	0	

@@ -1,0 +1,5 @@
+pane	0	0	:sudo	1	:*	0	:/tmp/test-remote	0	bash	:
+pane	0	0	:sudo	1	:*	1	:/tmp/test-remote	1	bash	:
+pane	0	0	:sudo	1	:*	2	:/home/m-solovyev	0	ssh	:ssh isurz.asgard.mail
+window	0	0	1	:*	0574,211x56,0,0[211x28,0,0,1,211x27,0,29{105x27,0,29,5,105x27,106,29,6}]
+state	0	

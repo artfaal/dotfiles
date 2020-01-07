@@ -1,0 +1,10 @@
+pane	0	0	:bash	0	:	0	:/tmp	1	bash	:
+pane	0	1	:isurzik	0	:	0	:/home/m-solovyev	1	ssh	:ssh jet@sentry-app-01.egron.fkp
+pane	0	2	:ssh	0	:-	0	:/home/m-solovyev	0	ssh	:ssh jet@pkurp-worker-001.egron.fkp
+pane	0	2	:ssh	0	:-	1	:/home/m-solovyev	1	ssh	:ssh jet@pkurp-worker-002.egron.fkp
+pane	0	3	:ssh	1	:*	0	:/home/m-solovyev	1	ssh	:ssh jet@pkurp-worker-003.egron.fkp
+window	0	0	0	:	c55e,211x56,0,0,1
+window	0	1	0	:	c560,211x56,0,0,3
+window	0	2	0	:-	9214,211x56,0,0[211x28,0,0,4,211x27,0,29,5]
+window	0	3	1	:*	c564,211x56,0,0,7
+state	0	

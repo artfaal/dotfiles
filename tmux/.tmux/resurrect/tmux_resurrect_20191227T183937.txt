@@ -1,0 +1,4 @@
+pane	0	0	:sudo	1	:*	0	:/home/m-solovyev/dump_to_mail	1	ssh	:ssh uno@10.132.99.11
+pane	0	0	:sudo	1	:*	1	:/home/m-solovyev/DUMP_TO_MAIL	0	bash	:
+window	0	0	1	:*	920d,211x56,0,0[211x28,0,0,1,211x27,0,29,3]
+state	0	

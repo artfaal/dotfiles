@@ -1,0 +1,3 @@
+pane	0	0	:bash	1	:*	0	:/etc	1	ssh	:ssh jet@sentry-app-01.egron.fkp
+window	0	0	1	:*	c55e,211x56,0,0,1
+state	0	

@@ -1,0 +1,4 @@
+pane	0	0	:bash	1	:*	0	:/etc	0	ssh	:ssh jet@isurz-elasticsearch-01.egron.fkp
+pane	0	0	:bash	1	:*	1	:/home/m-solovyev	1	ssh	:ssh jet@pkurp-elasticsearch-01.egron.fkp
+window	0	0	1	:*	120d,211x56,0,0[211x28,0,0,1,211x27,0,29,2]
+state	0	

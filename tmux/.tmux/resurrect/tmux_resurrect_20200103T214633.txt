@@ -1,0 +1,3 @@
+pane	0	0	:sudo	1	:*	0	:/home/m-solovyev/deploy/ANSIBLE/tmp/MAIL.RU/postgres	1	bash	:
+window	0	0	1	:*	bdbe,173x44,0,0,1
+state	0	

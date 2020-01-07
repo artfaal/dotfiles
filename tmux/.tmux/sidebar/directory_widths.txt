@@ -1,0 +1,4 @@
+/home/m-solovyev/.tmux/plugins/tpm	40
+/home/m-solovyev/.tmux/plugins/tpm/docs	40
+/home/m-solovyev	40
+/home/m-solovyev	40

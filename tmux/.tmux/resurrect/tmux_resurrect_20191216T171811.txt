@@ -1,0 +1,5 @@
+pane	0	0	:host	0	:-	0	:/home/m-solovyev	1	bash	:
+pane	0	1	:deva	1	:*	0	:/home/m-solovyev	1	bash	:
+window	0	0	0	:-	c560,211x56,0,0,3
+window	0	1	1	:*	c561,211x56,0,0,4
+state	0	

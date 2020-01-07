@@ -1,0 +1,5 @@
+pane	0	0	:sudo	1	:*	0	:/	1	sudo	:sudo fdisk -l
+pane	0	5	:POSTGRES_DUMP	0	:-	0	:/home/m-solovyev	1	ssh	:ssh jet@popd-bpd-01.egron.fkp
+window	0	0	1	:*	62e4,211x56,0,0,15
+window	0	5	0	:-	62e6,211x56,0,0,36
+state	0	
