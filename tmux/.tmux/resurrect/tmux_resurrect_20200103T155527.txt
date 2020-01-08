@@ -1,5 +1,0 @@
-pane	0	0	:sudo	1	:*	0	:/tmp/test-remote	0	bash	:
-pane	0	0	:sudo	1	:*	1	:/tmp/test-remote	1	bash	:
-pane	0	0	:sudo	1	:*	2	:/home/m-solovyev	0	bash	:
-window	0	0	1	:*	844e,238x64,0,0[238x32,0,0,1,238x31,0,33{119x31,0,33,5,118x31,120,33,6}]
-state	0	

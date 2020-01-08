@@ -1,5 +1,0 @@
-pane	0	0	:bash	0	:-	0	:/home/m-solovyev	1	bash	:
-pane	0	1	:test	1	:*	0	:/home/m-solovyev	1	ssh	:ssh root@104.248.254.146
-window	0	0	0	:-	c55d,211x56,0,0,0
-window	0	1	1	:*	c55e,211x56,0,0,1
-state	0	

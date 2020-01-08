@@ -1,4 +1,0 @@
-pane	0	0	:sudo	1	:*	0	:/etc/openvpn	0	sudo	:sudo openvpn --config mail.ru.conf
-pane	0	0	:sudo	1	:*	1	:/etc/openvpn	1	bash	:
-window	0	0	1	:*	4524,190x55,0,0[190x27,0,0,1,190x27,0,28,2]
-state	0	

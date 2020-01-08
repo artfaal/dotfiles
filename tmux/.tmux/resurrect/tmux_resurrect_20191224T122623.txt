@@ -1,7 +1,0 @@
-pane	0	0	:python2	0	:-	0	:/home/m-solovyev/deploy/ANSIBLE/tmp/FKP	1	python2	:/usr/bin/python2 /usr/bin/ansible all -i /home/m-solovyev/deploy/ANSIBLE/tmp/FKP/_fkp -m shell -a docker login -u development -p dlfoeEkda149fasdfdrR nexus-rr.jet.su
-pane	0	1	:ssh	1	:*	0	:/home/m-solovyev	1	ssh	:ssh jet@mgmt-ansible-01.egron.fkp
-pane	0	18	:IMPERSONALIZE	0	:	0	:/home/m-solovyev	1	ssh	:ssh jet@popd-bpd-01.egron.fkp
-window	0	0	0	:-	61e2,238x64,0,0,13
-window	0	1	1	:*	e1ea,238x64,0,0,69
-window	0	18	0	:	e1e8,238x64,0,0,67
-state	0	

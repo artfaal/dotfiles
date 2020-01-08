@@ -1,9 +1,0 @@
-pane	0	0	:bash	1	:*	0	:/home/m-solovyev/deploy/ANSIBLE/tmp/FKP	1	bash	:
-pane	0	3	:ssh	0	:	0	:/home/m-solovyev	1	ssh	:ssh jet@popd-workstation-01.egron.fkp
-pane	0	5	:common-utils-fkp	0	:	0	:/home/m-solovyev/deploy/ANSIBLE/tmp/MAIL.RU	1	python2	:/usr/bin/python2 /usr/bin/ansible-playbook -e USER=jet -e HOSTS=all -i /home/m-solovyev/deploy/ANSIBLE/tmp/FKP/_fkp base-packages-install.yaml
-pane	0	10	:docker	0	:-	0	:/tmp/arm-kd-deploy-changes	1	docker	:docker push nexus-rr.jet.su/popd/base:ruby2.3.9_armkd
-window	0	0	1	:*	62e4,211x56,0,0,15
-window	0	3	0	:	62e7,211x56,0,0,18
-window	0	5	0	:	e2e2,211x56,0,0,23
-window	0	10	0	:-	e2e8,211x56,0,0,29
-state	0	
