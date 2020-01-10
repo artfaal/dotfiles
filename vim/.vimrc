@@ -1,10 +1,15 @@
 "Vim conf by Max Solovyev
-" Cancel the compatibility with Vi. Essential if you want
-" to enjoy the features of Vim
+
+"Cancel the compatibility with Vi.
 set nocompatible
 
-"execute pathogen#infect()
-"autocmd vimenter * NERDTree
+"Start plugin manager
+execute pathogen#infect()
+
+"Start NERDTree Plugin if just open vim
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
+
 "autocmd vimenter * wincmd w
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -46,6 +51,7 @@ filetype indent on
 
 "set background=dark
 "colorscheme solarized8_high
+colorscheme monokai
 
 set guifont=DejaVu\ Sans\ Mono\ 14
 set antialias
