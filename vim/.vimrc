@@ -86,10 +86,6 @@ nmap <Leader>cf :silent !echo -n % \| pbcopy<Enter>
 
 " Press the j 2 times in row
 :imap jj <Esc>
-" Press the j key followed by the k one
-:imap jk <Esc>
-" Press the i 2 times in row
-:imap ii <Esc>
 " Press ;; for escape 
 :imap ;; <Esc>
 
@@ -100,6 +96,9 @@ set tabstop=2
 " Tab to space
 set expandtab
 set smarttab
+" Show tabs 
+set list
+set listchars=tab:>-
 
 " Cool stuff for correct paste
 nnoremap <F2> :set invpaste paste?<CR>
