@@ -30,6 +30,7 @@ alias st='subl'
 alias cr="sudo /home/m-solovyev/connect-rosreestr.sh"
 alias da="cd ~/deploy/ANSIBLE"
 alias dm="cd ~/deploy/ANSIBLE/tmp/MAIL.RU"
+alias dfk="cd ~/deploy/ANSIBLE/tmp/FKP/"
 alias RELOAD_ALL='cd ~/depoloy/ANSIBLE/ && ansible-playbook RM_ALL.yaml && ansible-playbook START_ALL.yaml --skip-tags get_images,tar-stuff,copy-front-bundle'
 
 alias ta="tmux attach"
@@ -60,11 +61,11 @@ cat ~/.ssh/id_rsa.pub | ssh -i ~/MAIL-RU/id_rsa centos@$1 'cat >> ~/.ssh/authori
 
 alias reload_arm_kd_fkp='cd /home/m-solovyev/deploy/ANSIBLE/tmp/FKP && ap -i _fkp reload-arm-kd.yaml'
 
-export _FKP='/home/m-solovyev/deploy/ANSIBLE/tmp/FKP/_fkp'
-export _DEVA='/home/m-solovyev/deploy/ANSIBLE/_deva'
-export _ASGARD='/home/m-solovyev/deploy/ANSIBLE/_asgard'
-export _SHIRE='/home/m-solovyev/deploy/ANSIBLE/_shire'
-export _DO='/home/m-solovyev/deploy/ANSIBLE/_test'
+export FKP='/home/m-solovyev/deploy/ANSIBLE/tmp/FKP/_fkp'
+export DEVA='/home/m-solovyev/deploy/ANSIBLE/_deva'
+export ASGARD='/home/m-solovyev/deploy/ANSIBLE/_asgard'
+export SHIRE='/home/m-solovyev/deploy/ANSIBLE/_shire'
+export DO='/home/m-solovyev/deploy/ANSIBLE/_test'
 
 alias rfkp='sudo resolvectl dns wlp5s0 10.132.14.4'
 alias rmail='sudo resolvectl dns wlp5s0 10.31.13.22'
