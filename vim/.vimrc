@@ -1,7 +1,16 @@
 " Vim conf by Max Solovyev
-
 " Cancel the compatibility with Vi.
 set nocompatible
+
+"" Commands in russian 
+"set keymap=russian-jcukenwin
+"set iminsert=0
+"set imsearch=0
+"highlight lCursor guifg=NONE guibg=Cyan
+"
+"" Set spelllang=ru_yo,en_us
+"imap :!setxkbmap us:!setxkbmap us,ru
+"nmap :!setxkbmap us:!setxkbmap us,ru
 
 "-----------------------------------------------------------------------
 
@@ -81,6 +90,10 @@ filetype indent on
 
 "-----------------------------------------------------------------------
 
+" Edit .vimrc 
+map ,v :vsp $MYVIMRC<CR>
+map ,V :source $MYVIMRC<CR>
+
 " Copy the relative path of the current file to the clipboard
 nmap <Leader>cf :silent !echo -n % \| pbcopy<Enter>
 
@@ -100,6 +113,7 @@ noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 
+
 " Ident and tabs
 set shiftwidth=2
 set tabstop=2
@@ -114,10 +128,13 @@ set listchars=tab:>-
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 
+" Switch off auto comment new line
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 "-----------------------------------------------------------------------
 
 " Status line stuff
-
 "-----------------------------------------------------------------------
+
 set laststatus=2
 set statusline=%f " tail of the filename
