@@ -24,7 +24,8 @@ export LANG=en_US.UTF-8
 #####################################
 
 #restart zsh
-alias r="source ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
+alias zshrc="vim ~/.zshrc"
 
 alias st='subl'
 alias cr="sudo /home/m-solovyev/connect-rosreestr.sh"
