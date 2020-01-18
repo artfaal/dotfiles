@@ -102,6 +102,7 @@ nmap <Leader>cf :silent !echo -n % \| pbcopy<Enter>
 " Press ;; for escape 
 :imap ;; <Esc>
 let mapleader=" "
+noremap tn :tabnew<CR>
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
@@ -112,6 +113,9 @@ noremap <leader>7 7gt
 noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
+
+" Hotkey to remove highlight
+map <silent> <leader>h :noh<CR>
 
 
 " Navigate in insert mode
@@ -144,3 +148,22 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 set laststatus=2
 set statusline=%f " tail of the filename
+
+
+" Settings for GUI
+if has("gui_running")
+  colorscheme monokai
+  set guifont=Monospace\ Regular\ 14 
+
+    " toolbar and scrollbars
+    set guioptions-=T       " remove toolbar
+    set guioptions-=L       " left scroll bar
+    set guioptions-=r       " right scroll bar
+    set guioptions-=b       " bottom scroll bar
+    "set guioptions-=h      " only calculate bottom scroll size of current line
+    set shortmess=atI       " Don't show the intro message at start and
+                            "   truncate msgs (avoid press ENTER msgs).
+    set guiheadroom=0       " Color of unused space same as main
+end
+
+
