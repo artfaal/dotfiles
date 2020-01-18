@@ -119,6 +119,11 @@ alias -s html=pick-web-browser
 bindkey '^R' history-incremental-search-backward
 bindkey '^F' history-incremental-pattern-search-forward
 
+
+# Find when already start typing
+bindkey "^[[5~" history-beginning-search-backward # pg up
+bindkey "^[[6~" history-beginning-search-forward  # pg down
+
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
 setopt INC_APPEND_HISTORY
