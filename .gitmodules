@@ -7,3 +7,6 @@
 [submodule "vim/.vim/pack/vendor/start/nerdtree"]
 	path = vim/.vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule "vim/.vim/pack/vendor/start/vim-airline"]
+	path = vim/.vim/pack/vendor/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
