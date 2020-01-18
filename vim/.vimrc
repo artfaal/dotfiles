@@ -114,6 +114,12 @@ noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 
 
+" Navigate in insert mode
+:imap <C-h> <C-o>h
+:imap <C-j> <C-o>j
+:imap <C-k> <C-o>k
+:imap <C-l> <C-o>l
+
 " Ident and tabs
 set shiftwidth=2
 set tabstop=2
