@@ -2,15 +2,15 @@
 " Cancel the compatibility with Vi.
 set nocompatible
 
-"" Commands in russian 
-"set keymap=russian-jcukenwin
-"set iminsert=0
-"set imsearch=0
-"highlight lCursor guifg=NONE guibg=Cyan
-"
-"" Set spelllang=ru_yo,en_us
-"imap :!setxkbmap us:!setxkbmap us,ru
-"nmap :!setxkbmap us:!setxkbmap us,ru
+" Commands in russian 
+" set keymap=russian-jcukenwin
+" set iminsert=0
+" set imsearch=0
+" highlight lCursor guifg=NONE guibg=Cyan
+
+" Set spelllang=ru_yo,en_us
+" imap :!setxkbmap us:!setxkbmap us,ru
+" nmap :!setxkbmap us:!setxkbmap us,ru
 
 "-----------------------------------------------------------------------
 
@@ -27,16 +27,16 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
 
 " Close nerdtree if only one left
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Hotkey Ctrl+n toggle nertree
 map <C-n> :NERDTreeToggle<CR>
 
-" \ + f to show file in nerdtree
-nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+" <leader> + f to show file in nerdtree
+nnoremap <silent> <Leader>f :NERDTreeFind<CR>
 
 " Close nertfree when open a file
-let NERDTreeQuitOnOpen = 1
+" let NERDTreeQuitOnOpen = 1
 
 " Automatically delete the buffer of the file you just deleted with NerdTree
 let NERDTreeAutoDeleteBuffer = 1
@@ -94,6 +94,9 @@ filetype indent on
 map ,v :vsp $MYVIMRC<CR>
 map ,V :source $MYVIMRC<CR>
 
+" Del without save in registry
+nnoremap <leader>d "_d
+
 " Copy the relative path of the current file to the clipboard
 nmap <Leader>cf :silent !echo -n % \| pbcopy<Enter>
 
@@ -150,6 +153,8 @@ set laststatus=2
 set statusline=%f " tail of the filename
 
 
+colorscheme monokai
+let g:airline_theme="base16_monokai"
 " Settings for GUI
 if has("gui_running")
   colorscheme monokai
